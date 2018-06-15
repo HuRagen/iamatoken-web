@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>iamatokon</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Custom Font Icons CSS-->
+    <link rel="stylesheet" href="css/landy-iconfont.css">
+    <!-- Google fonts - Open Sans-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800">
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="favicon.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top"><a href="index.html" class="navbar-brand">iamatoken</a>
+        <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span></span><span></span><span></span></button>
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto align-items-start align-items-lg-center">
+            <li class="nav-item"><a href="#about-us" class="nav-link link-scroll">關於我們</a></li>
+            <li class="nav-item"><a href="#features" class="nav-link link-scroll">提供的服務</a></li>
+            <li class="nav-item"><a href="#testimonials" class="nav-link link-scroll">合作商家</a></li>
+           <!-- <li class="nav-item"><a href="text.html" class="nav-link">使用說明</a></li>-->
+          </ul>
+          <div class="navbar-text">   
+            <!-- Button trigger modal--><a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary navbar-btn btn-shadow btn-gradient">開始創幣</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Modal-->
+    <div id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal fade">
+      <div role="document" class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 id="exampleModalLabel" class="modal-title">Sign Up Modal</h5>
+            <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+          </div>
+          <div class="modal-body">
+            <form id="signupform" action="#">
+              <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" name="fullname" placeholder="Full Name" id="fullname">
+              </div>
+              <div class="form-group">
+                <label for="username">User Name</label>
+                <input type="text" name="username" placeholder="User Name" id="username">
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="text" name="email" placeholder="Email Address" id="email">
+              </div>
+              <div class="form-group">
+                <button type="submit" class="submit btn btn-primary btn-shadow btn-gradient">Signup</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="hero" class="hero hero-home bg-gray">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-lg-6 text order-2 order-lg-1">
+            <h1>iamatoken。一鍵創幣 </h1>
+            <p class="hero-text">現代品牌行銷模式巨幅轉變，傳統的老方法如今逐漸被淘汰<br>在網路世代，想創造與同行的差異<br>搭上虛擬貨幣的商業模式，絕對是必要的選擇</p>
+            <div class="CTA"><a href="#features" class="btn btn-primary btn-shadow btn-gradient link-scroll">新世紀創幣商業模式</a><a href="#" data-toggle="modal" data-target="#exampleModal"  class="btn btn-outline-primary">點擊創幣</a></div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2"><img src="img/Macbook.png" alt="..." class="img-fluid"></div>
+        </div>
+      </div>
+    </section>
+    <section id="browser" class="browser">
+      <div class="container">
+        <div class="row d-flex justify-content-center"> 
+          <div class="col-lg-8 text-center">
+            <h2 class="h3 mb-5">如何創幣</h2>
+            <div class="browser-mockup">
+              <div id="nav-tabContent" class="tab-content">
+                <div id="nav-first" role="tabpanel" aria-labelledby="nav-first-tab" class="tab-pane fade show active"><img src="img/preview-3.png" alt="..." class="img-fluid"></div>
+                <div id="nav-second" role="tabpanel" aria-labelledby="nav-second-tab" class="tab-pane fade"><img src="img/preview-2.png" alt="..." class="img-fluid"></div>
+                <div id="nav-third" role="tabpanel" aria-labelledby="nav-third-tab" class="tab-pane fade"><img src="img/preview-1.png" alt="..." class="img-fluid"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="myTab" role="tablist" class="nav nav-tabs">
+          <div class="row">
+            <div class="col-md-4"><a id="nav-first-tab" data-toggle="tab" href="#nav-first" role="tab" aria-controls="nav-first" aria-expanded="true" class="nav-item nav-link active"> <span class="number">1</span><h4>輸入商家資料</h4>iamatoken<br>專業的品牌分析團隊，透過商家提供的資料，建立全方位的創幣基礎</a></div>
+            <div class="col-md-4"><a id="nav-second-tab" data-toggle="tab" href="#nav-second" role="tab" aria-controls="nav-second" class="nav-item nav-link"> <span class="number">2</span><h4>確立貨幣用途</h4>專屬打造貨幣應用<br>明確的應用場景是價值的開始，針對您的產業做技術建立，從貨幣使用上建立品牌價值</a></div>
+            <div class="col-md-4"><a id="nav-third-tab" data-toggle="tab" href="#nav-third" role="tab" aria-controls="nav-third" class="nav-item nav-link"> <span class="number">3</span><h4>貨幣上架</h4>以太坊智能合約建置<br>即可在iamatoken中<br>擁有商家的貨幣錢包，開啟專屬於您的區塊鏈世界</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about-us" class="about-us bg-gray">
+      <div class="container">
+        <h2>關於我們</h2>
+        <div class="row">
+          <p class="lead col-lg-10">iamatoken亞洲首家全方位服務創幣的科技公司，整合虛擬貨幣、區塊鏈之技術
+            <br>並與現今亞洲消費性市場的現況做規劃與拓展，目的是為了從台灣開始集結區塊鏈相關技術之人才
+            <br>能在未來的國際市場中發光發熱，看見台灣技術人才的前瞻性<br> 
+            <br>商業活動上，透過與廣大商家的合作，從品牌行銷面開始，徹底整合趨勢與技術
+            <br>不只能提升消費者的應用方便，更進而為各項產業創造高收益。</p>
+        </div><a href="#" class="btn btn-primary btn-shadow btn-gradient">立即創幣</a>
+      </div>
+    </section>
+    <section id="features" class="features">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="text col-lg-6 order-2 order-lg-1">
+            <div class="icon"><img src="img/medal.svg" alt="..." class="img-fluid"></div>
+            <h4>企業品牌創建虛擬貨幣</h4>
+            <p>使用iamatoken可創建或管理用作資產，虛擬共享，會員證明或任何其他信息的可交易數字標記之虛擬貨幣，俗稱代幣。所創建的代幣符合ERC20標準，因此您的代幣將自動與支持該標準的任何錢包或其他應用所兼容。 </p><!-- <a href="#" class="btn btn-primary btn-shadow btn-gradient">View More</a>-->
+          </div>
+          <div class="image col-lg-6 order-1 order-lg-2"><img src="img/feature-1.png" alt="..." class="img-fluid"></div>
+        </div>
+        <div class="row d-flex align-items-center">
+          <div class="image col-lg-6"><img src="img/feature-2.png" alt="..." class="img-fluid"></div>
+          <div class="text col-lg-6">
+            <div class="icon"><img src="img/hourglass.svg" alt="..." class="img-fluid"></div>
+            <h4>企業級Oracle運算系統</h4>
+            <p>以太坊Dapp通過預言機（Oracle）獲取外部世界資料，如比特幣價格指數，股票數據等，從而使得智能合約不受限於EVM。iamatoken將提供可靠的Oracle服務，並將接入各類基於Oracle服務的第三方Dapp。 
+              </p><!--<a href="#" class="btn btn-primary btn-shadow btn-gradient">View More</a>-->
+          </div>
+        </div>
+        <div class="row d-flex align-items-center">
+          <div class="text col-lg-6 order-2 order-lg-1">
+            <div class="icon"><img src="img/cup.svg" alt="..." class="img-fluid"></div>
+            <h4>營運去中心化</h4>
+            <p>基於以太坊智能合約所延伸創建的商業運作，顛覆了資本中心化造成的數據偽造及不公平機制。而且由於以太坊網絡是分散的，保證了100％的無宕機運行時間。iamatoken將致力於開發自主的區塊鏈商家，同時，也將接入各類相關的第三方區塊鏈產業連結。</p><!--<a href="#" class="btn btn-primary btn-shadow btn-gradient">View More</a>-->
+          </div>
+          <div class="image col-lg-6 order-1 order-lg-2"><img src="img/feature-3.png" alt="..." class="img-fluid"></div>
+        </div>
+      </div>
+    </section>
+    <section id="extra-features" class="extra-features bg-primary">
+      <div class="container text-center">
+        <header>
+          <h2>充滿未來性的商業新營銷模式             </h2>
+          <div class="row">
+            <p class="lead col-lg-8 mx-auto">iamatoken將致力於使用區塊鏈技術，打造新的商業運作與消費模式，我們擁有的全方位的優勢技術，量身打造企業與商家的自主性區塊鏈世界</p>
+          </div>
+        </header>
+        <div class="grid row">
+          <div class="item col-lg-4 col-md-6">
+            <div class="icon"> <i class="icon-diploma"></i></div>
+            <h3 class="h5">專業技術工程師</h3>
+            <p>iamatoken凝聚一群兩岸三地的專業工程師，完整技術架構能因應任何技術問題</p>
+          </div>
+          <div class="item col-lg-4 col-md-6">
+            <div class="icon"> <i class="icon-folder-1"></i></div>
+            <h3 class="h5">技術與資料保護</h3>
+            <p>iamatoken有頂級的系統平台防火牆技術，阻擋任何外來威脅與網路攻擊</p>
+          </div>
+          <div class="item col-lg-4 col-md-6">
+            <div class="icon"> <i class="icon-gears"></i></div>
+            <h3 class="h5">區塊鏈技術</h3>
+            <p>iamatoken的區塊鏈應用技術，是亞洲前十大技術團隊，服務過的企業單位眾多，無須擔憂</p>
+          </div>
+          <div class="item col-lg-4 col-md-6">
+            <div class="icon"> <i class="icon-management"></i></div>
+            <h3 class="h5"專屬客製化</h3>
+            <p>iamatoken會因應創建者的各種需求，客製化訂定區塊鏈之應用功能，任何您想要的使用模式，我們都能提供服務</p>
+          </div>
+          <div class="item col-lg-4 col-md-6">
+            <div class="icon"> <i class="icon-pie-chart"></i></div>
+            <h3 class="h5">數據分析</h3>
+            <p>區塊鏈所建立起的數據庫龐大，我們提供大數據分析，為您找到最有效率最高產能的商業模式</p>
+          </div>
+          <div class="item col-lg-4 col-md-6">
+            <div class="icon"> <i class="icon-quality"></i></div>
+            <h3 class="h5">全方位行銷服務</h3>
+            <p>iamatoken擁有亞洲各大行銷顧問資源，以及專屬給使用會員的行銷規劃與顧問服務，讓您的項目與努力，能有效益的大量曝光</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <header class="text-center no-margin-bottom">   
+          <h2>使用者回饋</h2>
+          <p class="lead">There are many variations of passages of Lorem Ipsum available, but the majority have</p>
+        </header>
+        <div class="owl-carousel owl-theme testimonials-slider"> 
+          <div class="item-holder">
+            <div class="item">
+              <div class="avatar"><img src="img/avatar-3.jpg" alt="..." class="img-fluid"></div>
+              <div class="text">
+                <div class="quote"><img src="img/quote.svg" alt="..." class="img-fluid"></div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong class="name">Jessica Watson</strong>
+              </div>
+            </div>
+          </div>
+          <div class="item-holder">
+            <div class="item">
+              <div class="avatar"><img src="img/avatar-5.jpg" alt="..." class="img-fluid"></div>
+              <div class="text">
+                <div class="quote"><img src="img/quote.svg" alt="..." class="img-fluid"></div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong class="name">Sarrah Wood</strong>
+              </div>
+            </div>
+          </div>
+          <div class="item-holder">
+            <div class="item">
+              <div class="avatar"><img src="img/avatar-3.jpg" alt="..." class="img-fluid"></div>
+              <div class="text">
+                <div class="quote"><img src="img/quote.svg" alt="..." class="img-fluid"></div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong class="name">Jessica Watson</strong>
+              </div>
+            </div>
+          </div>
+          <div class="item-holder">
+            <div class="item">
+              <div class="avatar"><img src="img/avatar-5.jpg" alt="..." class="img-fluid"></div>
+              <div class="text">
+                <div class="quote"><img src="img/quote.svg" alt="..." class="img-fluid"></div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong class="name">Sarrah Wood</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="newsletter" class="newsletter bg-gray">
+      <div class="container text-center">
+        <h2>持續關注iamatoken</h2>
+        <p class="lead">歡迎各產業中的企業與專業人士，持續關注我們的服務與技術更新</p>
+        <div class="form-holder">
+          <form id="newsletterForm" action="#">
+            <div class="form-group">
+              <input type="email" name="email" id="email" placeholder="Enter Your Email Address">
+              <button type="submit" class="btn btn-primary btn-gradient submit">關注</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <div id="scrollTop">
+      <div class="d-flex align-items-center justify-content-end"><i class="fa fa-long-arrow-up"></i>To Top</div>
+    </div>
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6"><a href="#" class="brand">iamatoken</a>
+            <ul class="contact-info list-unstyled">
+              <li><a href="mailto:sales@landy.com">Sales@iamatoken.com</a></li>
+              <li><a href="tel:123456789">+00 123 456 789</a></li>
+            </ul>
+            <ul class="social-icons list-inline">
+              <li class="list-inline-item"><a href="#" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a href="#" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="#" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" target="_blank" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5>資訊公開</h5>
+            <ul class="links list-unstyled">
+              <li> <a href="#">使用條款</a></li>
+              <li> <a href="#">隱私條款</a></li>
+              <!--<li> <a href="#">Iris Vor Arnim</a></li>
+              <li> <a href="#">Yapital</a></li> -->
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5>協力企業</h5>
+            <ul class="links list-unstyled">
+              <li> <a href="#">Timesmarketing CO.,LTD</a></li>
+              <li> <a href="#"></a></li>
+              <!--<li> <a href="#">Iris Vor Arnim</a></li>
+              <li> <a href="#">Yapital</a></li>-->
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+           <!-- <h5>Selected Cases</h5>
+            <ul class="links list-unstyled">
+              <li> <a href="#">Guess Conntect</a></li>
+              <li> <a href="#">Postly</a></li>
+              <li> <a href="#">Iris Vor Arnim</a></li>
+              <li> <a href="#">Yapital</a></li>-->
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="copyrights">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <p>&copy; 2018 iamatoken.com. All rights reserved.                        </p>
+            </div>
+            <div class="col-md-5 text-right">
+              <p>Design By <a href="https://bootstrapious.com/" class="external">Timesmarketing CO.,LTD</a>  </p>
+              <!-- Please do not remove the backlink to Bootstrapious unless you support us at http://bootstrapious.com/donate. It is part of the license conditions. Thanks for understanding :) -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Javascript files-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"> </script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="js/front.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
+    <!---->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+  </body>
+</html>
