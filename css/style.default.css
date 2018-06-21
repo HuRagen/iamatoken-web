@@ -735,14 +735,14 @@ footer.main-footer ul.social-icons {
 }
 
 footer.main-footer ul.social-icons a {
-  width: 26px;
-  height: 26px;
-  line-height: 26px;
+  width: 35px;
+  height: 35px;
+  line-height: 32px;
   background: #222;
   color: #fff;
   text-align: center;
   border-radius: 50%;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
 }
 
 footer.main-footer ul.social-icons a:hover {
